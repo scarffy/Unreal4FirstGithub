@@ -2,7 +2,9 @@ using UnityEngine;
 
 namespace Unreal.UI
 {
-    public class UIAnchor : MonoBehaviour
+    using Unreal.Shell;
+
+    public class UIAnchor : Singleton<UIAnchor>
     {
         public static void InitializeAllControllers()
         {

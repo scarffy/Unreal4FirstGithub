@@ -244,7 +244,7 @@ GameObject:
   - component: {fileID: 2254156527610220575}
   - component: {fileID: 2519454812734824356}
   m_Layer: 0
-  m_Name: Canvas
+  m_Name: LoginUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
