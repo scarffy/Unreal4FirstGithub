@@ -1,0 +1,18 @@
+{
+    "name": "Unreal.Core",
+    "rootNamespace": "Unreal.Core",
+    "references": [
+        "GUID:48ea8e7df507a85478a52f4ce50aa7c6",
+        "GUID:03708c8eeb446184288ef2abbb3af9ef",
+        "GUID:bb5a35597708a844083e8f6f0bd61703"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
