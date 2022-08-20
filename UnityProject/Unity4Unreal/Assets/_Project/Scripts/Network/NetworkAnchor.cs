@@ -8,6 +8,18 @@ namespace Unreal.Network
 
     public class NetworkAnchor : Singleton<NetworkAnchor>
     {
+        #region Private Field
+        [SerializeField] private PlayFabController _playFabController;
+        #endregion
 
+        private void Start()
+        {
+            PlayFabController.Initialize();
+        }
+
+
+        #region Accessor
+        public PlayFabController PlayFabController => _playFabController;
+        #endregion
     }
 }
