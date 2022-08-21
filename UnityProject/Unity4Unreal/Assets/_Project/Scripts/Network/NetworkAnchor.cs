@@ -12,14 +12,12 @@ namespace Unreal.Network
         [SerializeField] private PlayFabController _playFabController;
         #endregion
 
-        private void Start()
-        {
+        public static void Initialize() {
             PlayFabController.Initialize();
         }
 
-
         #region Accessor
-        public PlayFabController PlayFabController => _playFabController;
+        public static PlayFabController PlayFabController => Instance._playFabController;
         #endregion
     }
 }
