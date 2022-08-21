@@ -500,6 +500,7 @@ GameObject:
   - component: {fileID: 2074201938314512100}
   - component: {fileID: 2254156527610220575}
   - component: {fileID: 2519454812734824356}
+  - component: {fileID: 2213785731911272032}
   m_Layer: 0
   m_Name: RegisterUI
   m_TagString: Untagged
@@ -570,6 +571,18 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!225 &2213785731911272032
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867701968459001387}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &2521952141297224494
 GameObject:
   m_ObjectHideFlags: 0
